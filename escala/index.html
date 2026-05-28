@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="../icon.svg" />
+    <link rel="stylesheet" href="../assets/index-BRlkFhtf.css" />
+    <title>O Fim da Escala 6x1 — Aretê</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="O Fim da Escala 6x1 e o Futuro das Empresas de Serviço — Aretê." />
+    <style>
+      :root{
+        --escala-max: 1180px;
+        --escala-pad-x: 1.5rem;
+        --escala-section-y: 104px;
+        --escala-gap-title-text: 30px;
+      }
+      html{background:hsl(var(--navy-deep));scroll-behavior:smooth;}
+      body{margin:0;background:hsl(var(--background));color:hsl(var(--foreground));font-family:var(--font-sans),sans-serif;}
+      .page{overflow:hidden;background:hsl(var(--background));}
+      .inner{width:100%;max-width:var(--escala-max);margin:0 auto;padding-left:var(--escala-pad-x);padding-right:var(--escala-pad-x);}
+      @media (min-width:768px){:root{--escala-pad-x:2.5rem;--escala-section-y:112px;}}
+      @media (min-width:1024px){:root{--escala-pad-x:4rem;--escala-section-y:124px;}}
+
+      .section{position:relative;padding:var(--escala-section-y) 0;}
+      .section-compact{padding:calc(var(--escala-section-y) * .75) 0;}
+      .section-dark{background:hsl(var(--navy-deep));color:hsl(var(--navy-foreground));}
+      .section-soft{background:hsl(var(--surface-warm) / .4);}
+      .section-white{background:hsl(var(--background));}
+
+      .scale-topbar{position:fixed;top:0;left:0;right:0;z-index:50;padding:1.05rem 0;border-bottom:1px solid hsl(var(--navy-foreground) / .12);background:hsl(var(--navy-deep) / .72);backdrop-filter:blur(14px);}
+      .scale-topbar-inner{width:100%;max-width:var(--escala-max);margin:0 auto;padding-left:var(--escala-pad-x);padding-right:var(--escala-pad-x);display:flex;align-items:center;justify-content:space-between;gap:2rem;}
+      .scale-topbar-logo{height:2.15rem;width:auto;display:block;}
+      .scale-nav{display:flex;align-items:center;gap:1.2rem;}
+      .scale-nav a{font-size:.66rem;text-transform:uppercase;letter-spacing:.18em;color:hsl(var(--navy-foreground) / .68);text-decoration:none;transition:color .25s ease,background .25s ease,border-color .25s ease;}
+      .scale-nav a:hover{color:hsl(var(--navy-foreground));}
+      .scale-nav .nav-cta{border:1px solid hsl(var(--navy-foreground) / .32);padding:.78rem 1rem;color:hsl(var(--navy-foreground));}
+      .scale-nav .nav-cta:hover{background:hsl(var(--navy-foreground));color:hsl(var(--navy-deep));border-color:hsl(var(--navy-foreground));}
+
+      .scale-hero{position:relative;min-height:92svh;display:flex;align-items:flex-end;background:hsl(var(--navy-deep));color:hsl(var(--navy-foreground));overflow:hidden;}
+      .scale-hero:before{content:"";position:absolute;inset:0;background:url('../assets/hero-sailboat-DMdKS7mQ.jpg') 78% center/cover no-repeat;opacity:.28;filter:grayscale(1);transform:scale(1.08) translateX(3%);transform-origin:center;}
+      .scale-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,hsl(var(--navy-deep)) 0%,hsl(var(--navy-deep) / .92) 42%,hsl(var(--navy-deep) / .42) 76%,hsl(var(--navy-deep) / .24) 100%),linear-gradient(to top,hsl(var(--navy-deep) / .96),transparent 54%);}
+      .scale-hero-content{position:relative;z-index:2;padding-top:9rem;padding-bottom:5.75rem;width:100%;max-width:var(--escala-max);text-align:left;}
+      .scale-title{font-family:var(--font-serif),serif;font-weight:300;letter-spacing:-.028em;line-height:1.06;font-size:clamp(2.55rem,5.2vw,4.35rem);margin:0;color:hsl(var(--navy-foreground));}
+      .scale-title em{font-style:italic;font-weight:300;color:hsl(var(--navy-foreground) / .66);}
+      .scale-lead{font-family:var(--font-serif),serif;font-weight:300;line-height:1.68;font-size:clamp(1rem,1.45vw,1.16rem);color:hsl(var(--navy-foreground) / .72);max-width:720px;margin:var(--escala-gap-title-text) 0 0;}
+      .scale-meta{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:2rem;}
+      .scale-pill{border:1px solid hsl(var(--navy-foreground) / .18);padding:.72rem .9rem;font-size:.64rem;text-transform:uppercase;letter-spacing:.2em;color:hsl(var(--navy-foreground) / .68);}
+
+      .scale-header{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:3rem;align-items:start;margin-bottom:3.75rem;}
+      .scale-header h2{font-family:var(--font-serif),serif;font-size:clamp(1.9rem,3.4vw,2.85rem);line-height:1.09;font-weight:300;letter-spacing:-.026em;margin:var(--escala-gap-title-text) 0 0;max-width:720px;}
+      .scale-header p{font-family:var(--font-serif),serif;font-size:clamp(1rem,1.25vw,1.12rem);line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;margin:calc(1.2rem + var(--escala-gap-title-text)) 0 0;max-width:680px;}
+      .section-dark .scale-header p{color:hsl(var(--navy-foreground) / .72);}
+
+      .scale-grid{display:grid;gap:1rem;}
+      .cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
+      .cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
+      .cols-4{grid-template-columns:repeat(4,minmax(0,1fr));}
+      .scale-card{border:1px solid hsl(var(--foreground) / .12);background:hsl(var(--card) / .55);padding:1.55rem;min-height:100%;}
+      .section-dark .scale-card{border-color:hsl(var(--navy-foreground) / .15);background:hsl(var(--navy-foreground) / .035);}
+      .scale-card-number{font-family:var(--font-serif),serif;font-size:1.3rem;line-height:1;font-weight:300;color:hsl(var(--terracotta));letter-spacing:-.02em;margin-bottom:1rem;}
+      .scale-card h3{font-family:var(--font-serif),serif;font-weight:300;line-height:1.18;font-size:clamp(1.25rem,1.65vw,1.55rem);letter-spacing:-.018em;margin:0 0 var(--escala-gap-title-text);}
+      .scale-card p,.scale-card li{font-size:.92rem;line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;}
+      .section-dark .scale-card p,.section-dark .scale-card li{color:hsl(var(--navy-foreground) / .68);}
+      .scale-card ul{list-style:none;margin:0;padding:0;}
+      .scale-card li{padding:.85rem 0;border-top:1px solid hsl(var(--foreground) / .1);}
+      .scale-card li:first-child{border-top:0;padding-top:0;}
+      .section-dark .scale-card li{border-top-color:hsl(var(--navy-foreground) / .12);}
+
+      .scale-stat{border-top:1px solid currentColor;padding-top:1.15rem;}
+      .scale-stat strong{display:block;font-family:var(--font-serif),serif;font-size:clamp(2.4rem,4vw,3.6rem);font-weight:300;line-height:.95;color:hsl(var(--navy-foreground));letter-spacing:-.035em;}
+      .scale-stat span{display:block;margin-top:.8rem;font-size:.68rem;line-height:1.45;text-transform:uppercase;letter-spacing:.18em;color:hsl(var(--navy-foreground) / .64);}
+      .scale-stat p{margin:1rem 0 0;font-size:.88rem;line-height:1.68;color:hsl(var(--navy-foreground) / .66);font-weight:300;}
+      .source-line{margin-top:1.75rem;font-size:.64rem;line-height:1.5;text-transform:uppercase;letter-spacing:.17em;color:currentColor;opacity:.42;}
+
+      .scale-question{display:grid;grid-template-columns:3.4rem 1fr;gap:1.4rem;border-top:1px solid hsl(var(--foreground) / .14);padding:1.55rem 0;}
+      .scale-question strong{font-family:var(--font-serif),serif;font-size:2.25rem;line-height:1;font-weight:300;color:hsl(var(--terracotta));}
+      .scale-question h3{font-family:var(--font-serif),serif;font-size:clamp(1.22rem,1.6vw,1.48rem);font-weight:300;line-height:1.22;margin:0;}
+      .scale-question p{font-size:.92rem;line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;margin:var(--escala-gap-title-text) 0 0;max-width:840px;}
+
+      .scale-quote{position:relative;min-height:62svh;display:flex;align-items:center;background:hsl(var(--navy-deep));color:hsl(var(--navy-foreground));overflow:hidden;}
+      .scale-quote:before{content:"";position:absolute;inset:0;background:url('../assets/showcase-boat-Ddx7ROJy.jpg') center/cover no-repeat;opacity:.72;}
+      .scale-quote:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,hsl(var(--navy-deep) / .86),hsl(var(--navy-deep) / .26),hsl(var(--navy-deep) / .8));}
+      .scale-quote .inner{position:relative;z-index:2;}
+      .scale-quote h2{font-family:var(--font-serif),serif;font-size:clamp(2.15rem,4.6vw,4rem);line-height:1.06;font-weight:300;letter-spacing:-.03em;margin:0;max-width:860px;}
+      .scale-quote p{font-family:var(--font-serif),serif;font-size:1.06rem;line-height:1.72;color:hsl(var(--navy-foreground) / .72);max-width:720px;margin:var(--escala-gap-title-text) 0 0;}
+
+      .scale-compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+      .scale-panel{padding:1.75rem;border:1px solid hsl(var(--foreground) / .12);background:hsl(var(--card) / .55);}
+      .scale-panel h3{font-family:var(--font-serif),serif;font-size:1.65rem;font-weight:300;line-height:1.16;margin:0 0 var(--escala-gap-title-text);}
+      .scale-panel p{font-size:.92rem;line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;margin:0 0 1.1rem;}
+      .scale-panel p:last-child{margin-bottom:0;}
+
+      .scale-final{background:hsl(var(--navy-deep));color:hsl(var(--navy-foreground));padding:7rem 0;}
+      .scale-final h2{font-family:var(--font-serif),serif;font-size:clamp(2.15rem,4.8vw,4.2rem);font-weight:300;line-height:1.06;letter-spacing:-.03em;margin:0;max-width:920px;}
+      .scale-final p{font-size:1rem;line-height:1.72;color:hsl(var(--navy-foreground) / .72);max-width:780px;margin:var(--escala-gap-title-text) 0 0;font-weight:300;}
+      .scale-signature{margin-top:3.6rem;padding-top:1.5rem;border-top:1px solid hsl(var(--navy-foreground) / .16);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.16em;color:hsl(var(--navy-foreground) / .52);}
+
+
+      .auto-list{display:grid;gap:0;}
+      .auto-item{display:grid;grid-template-columns:1.45rem 1fr;gap:.82rem;align-items:start;padding:1rem 0;border-top:1px solid hsl(var(--foreground) / .12);}
+      .auto-item:first-child{border-top:0;padding-top:0;}
+      .auto-item:last-child{padding-bottom:0;}
+      .auto-icon{display:inline-flex;align-items:center;justify-content:center;width:1.15rem;height:1.15rem;margin-top:.28rem;border:1px solid hsl(var(--terracotta) / .7);border-radius:999px;color:hsl(var(--terracotta));font-size:.75rem;line-height:1;font-family:var(--font-sans),sans-serif;}
+      .auto-item p{margin:0;font-size:.92rem;line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;}
+      .section-dark .auto-item{border-top-color:hsl(var(--navy-foreground) / .5);}
+      .section-dark .auto-item p{color:hsl(var(--navy-foreground));}
+      .section-dark .auto-icon{border-color:hsl(var(--terracotta) / .85);}
+      .switch-section .auto-icon{border-color:hsl(var(--navy-foreground) / .85);color:hsl(var(--navy-foreground));}
+      .six-one-card{margin-top:1.25rem;padding:1.05rem 1.1rem;border:1px solid hsl(var(--terracotta) / .26);background:hsl(var(--terracotta) / .06);}
+      .six-one-card p{margin:0;font-size:.86rem;line-height:1.66;}
+      .six-one-card strong{display:block;margin-bottom:.4rem;color:hsl(var(--terracotta));font-weight:500;}
+      .diagnostic-list{border-top:1px solid hsl(var(--foreground) / .14);}
+      .diagnostic-item{border-bottom:1px solid hsl(var(--foreground) / .14);}
+      .diagnostic-item summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:3.4rem 1fr 1.5rem;gap:1.4rem;align-items:start;padding:1.55rem 0;}
+      .diagnostic-item summary::-webkit-details-marker{display:none;}
+      .diagnostic-item .diagnostic-number{font-family:var(--font-serif),serif;font-size:2.25rem;line-height:1;font-weight:300;color:hsl(var(--terracotta));}
+      .diagnostic-item h3{font-family:var(--font-serif),serif;font-size:clamp(1.22rem,1.6vw,1.48rem);font-weight:300;line-height:1.22;margin:0;}
+      .diagnostic-arrow{font-size:1.2rem;color:hsl(var(--terracotta));transition:transform .25s ease;}
+      .diagnostic-item[open] .diagnostic-arrow{transform:rotate(45deg);}
+      .diagnostic-answer{padding:0 0 1.55rem 4.8rem;}
+      .diagnostic-answer p{font-size:.92rem;line-height:1.72;color:hsl(var(--muted-foreground));font-weight:300;margin:0;max-width:840px;}
+      .model-example{margin-top:1rem;}
+      .model-example strong{font-weight:500;color:hsl(var(--foreground));}
+      .section-dark .scale-panel{border-color:hsl(var(--navy-foreground) / .15);background:hsl(var(--navy-foreground) / .035);}
+      .section-dark .scale-panel h3,.section-dark .scale-panel p{color:hsl(var(--navy-foreground));}
+      .scale-problem-number{font-size:calc(clamp(1.25rem,1.65vw,1.55rem) - 4px);}
+      .scale-card-number-large{font-size:clamp(2.4rem,4vw,3.4rem);}
+
+      @media (max-width:980px){
+        .scale-header,.scale-compare{grid-template-columns:1fr;gap:1.65rem;}
+        .cols-3,.cols-4{grid-template-columns:repeat(2,minmax(0,1fr));}
+        .scale-nav{display:none;}
+        .scale-header p{margin-top:0;}
+        .scale-title{font-size:clamp(2.4rem,8.6vw,3.85rem);}
+      }
+      @media (max-width:640px){
+        :root{--escala-pad-x:1.25rem;--escala-section-y:82px;--escala-gap-title-text:24px;}
+        .scale-grid,.cols-2,.cols-3,.cols-4{grid-template-columns:1fr;}
+        .scale-card,.scale-panel{padding:1.35rem;}
+        .scale-question{grid-template-columns:1fr;gap:.7rem;}
+        .scale-hero:before{background-position:72% center;transform:scale(1.02);}
+        .scale-signature{grid-template-columns:1fr;} .diagnostic-answer{padding-left:0;}
+        .scale-pill{font-size:.58rem;}
+      }
+</style>
+  </head>
+  <body>
+
+    <header class="scale-topbar" aria-label="Aretê">
+      <div class="scale-topbar-inner">
+        <img src="../assets/logo-arete-light.png" alt="Aretê Gestão e Estratégia" class="scale-topbar-logo" />
+        <nav class="scale-nav" aria-label="Navegação da página">
+          <a href="#visao">Visão</a>
+          <a href="#setores">Setores</a>
+          <a href="#impacto">Impacto</a>
+          <a href="#problemas">Problemas</a>
+          <a href="#diagnostico">Diagnóstico</a>
+          <a href="#agora" class="nav-cta">Por que agora</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page">
+      <section class="scale-hero grain">
+        <div class="inner scale-hero-content">
+          <div class="flex items-center gap-3 mb-9"><span class="rule bg-navy-foreground/40"></span><span class="eyebrow-light">Panorama do Mercado de Serviços · 2026</span></div>
+          <h1 class="scale-title">O fim da escala 6x1<br><em>não é uma mudança trabalhista.</em><br>É um teste de estrutura.</h1>
+          <p class="scale-lead">A PEC 221/2019 foi aprovada na Câmara dos Deputados em 27 de maio de 2026, com 461 votos favoráveis e apenas 19 contrários. O texto segue para o Senado Federal, onde precisa de 49 votos para ser promulgado.</p>
+          <div class="scale-meta"><span class="scale-pill">O Fim da Escala 6x1 e o Futuro das Empresas de Serviço</span><span class="scale-pill">Aretê · Gestão e Estratégia</span></div>
+        </div>
+      </section>
+
+      <section id="visao" class="section section-white">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Visão Geral</span></div><h2>O que muda na prática</h2></div><p>A jornada de trabalho no Brasil vai mudar. Entenda o que era, o que passa a ser e quanto tempo sua empresa tem para se adaptar.</p></div>
+          <div class="scale-grid cols-3">
+            <article class="scale-card"><div class="scale-card-number scale-card-number-large">6x1</div><h3>Modelo atual</h3><p>6 dias de trabalho por 1 dia de folga. 44 horas por semana. Máximo de 8 horas por dia. Regra em vigor desde 1988.</p></article>
+            <article class="scale-card"><div class="scale-card-number scale-card-number-large">5x2</div><h3>Novo modelo</h3><p>5 dias de trabalho por 2 dias de folga. Fase 1: 42h/semana. Fase 2: 40h/semana após 14 meses. Sem redução de salário.</p></article>
+            <article class="scale-card"><div class="scale-card-number scale-card-number-large">60</div><h3>Prazo legal</h3><p>60 dias após a promulgação no Senado. O prazo começa a contar a partir da publicação oficial. Não há período de aviso prévio para empresas que já operam com escala 6x1.</p></article>
+          </div>
+          <p class="source-line">Fonte: Câmara dos Deputados · PEC 221/2019 · 27/05/2026</p>
+        </div>
+      </section>
+
+      <section id="setores" class="section section-dark grain">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule bg-navy-foreground/40"></span><span class="eyebrow-light">Quem está na linha de frente</span></div><h2>Não são todas as empresas que sentem o mesmo impacto</h2></div><p>O impacto é maior onde o serviço depende de presença contínua, escalas rotativas e cobertura nos fins de semana. O mercado de serviços é, de longe, o mais exposto.</p></div>
+          <div class="scale-grid cols-4">
+            <div class="scale-stat"><strong>33,2%</strong><span>dos vínculos de trabalho formais no Brasil operam hoje na escala 6x1</span><p>Isso representa 14,8 milhões de contratos que precisarão ser revisados.</p></div>
+            <div class="scale-stat"><strong>+10%</strong><span>aumento no custo operacional imediato</span><p>Projeção do Ipea para empresas que precisarem cobrir a redução de jornada sem ganhos de produtividade.</p></div>
+            <div class="scale-stat"><strong>+21%</strong><span>alta estimada no custo com pessoal</span><p>Projeção da Confederação Nacional do Comércio considerando setores que operam 6 ou 7 dias por semana como base de cálculo.</p></div>
+            <div class="scale-stat"><strong>Risco</strong><span>passivo trabalhista para quem não adequar</span><p>Empresas que continuarem operando na escala 6x1 após o prazo poderão responder na Justiça do Trabalho.</p></div>
+          </div>
+          <p class="source-line">Fontes: Ministério do Trabalho · Ipea · CNC · PEC 221/2019 · JOTA</p>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Setores com maior exposição</span></div><h2>O impacto aumenta onde a presença contínua sustenta a entrega</h2></div><p>Alimentação, hospitalidade, saúde, cuidados, segurança, facilities, suporte e atendimento operam com cobertura estendida e têm menor margem para absorver redução de jornada sem redesenho operacional.</p></div>
+          <div class="scale-grid cols-4">
+            <article class="scale-card"><h3>Alimentação e hospitalidade</h3><p>Bares, restaurantes e hotéis operam 7 dias por semana. Qualquer redução de horas exige contratação adicional ou queda na cobertura.</p></article>
+            <article class="scale-card"><h3>Saúde e cuidados</h3><p>Clínicas, home care e laboratórios não podem simplesmente reduzir o horário de atendimento. As escalas precisam ser redesenhadas.</p></article>
+            <article class="scale-card"><h3>Segurança e facilities</h3><p>Vigilância, limpeza e manutenção dependem de cobertura ininterrupta. A conta de pessoal é praticamente toda variável.</p></article>
+            <article class="scale-card"><h3>Suporte e atendimento</h3><p>Call centers, help desks e assistência técnica com operação estendida terão o custo por hora de trabalho aumentado automaticamente.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="impacto" class="section section-white">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Impacto no Mercado de Serviços</span></div><h2>Para quem vende conhecimento, hora reduzida é receita reduzida</h2></div><p>O impacto da 6x1 no setor industrial ou no varejo é operacional. Para consultorias, assessorias e escritórios técnicos, ele é estrutural — porque o produto que se vende é o tempo e o conhecimento do fundador.</p></div>
+          <div class="scale-compare">
+            <div class="scale-panel"><h3>O modelo atual</h3><div class="auto-list"><div class="auto-item"><span class="auto-icon">×</span><p>Você vende horas de trabalho do seu time especializado.</p></div><div class="auto-item"><span class="auto-icon">×</span><p>Menos horas disponíveis = menos capacidade de atendimento.</p></div><div class="auto-item"><span class="auto-icon">×</span><p>Custo por hora entregue ao cliente sobe automaticamente.</p></div><div class="auto-item"><span class="auto-icon">×</span><p>Contratos de horas mensais precisam ser renegociados.</p></div></div></div>
+            <div class="scale-panel"><h3>O que torna esse mercado diferente</h3><div class="auto-list"><div class="auto-item"><span class="auto-icon">✓</span><p>O produto não é físico. É o capital intelectual do fundador.</p></div><div class="auto-item"><span class="auto-icon">✓</span><p>Não se contrata mais um funcionário para compensar a jornada reduzida.</p></div><div class="auto-item"><span class="auto-icon">✓</span><p>A qualidade está ligada a quem entrega, não a quantos entregam.</p></div><div class="auto-item"><span class="auto-icon">✓</span><p>Sem processo documentado, cada hora a menos é um buraco na operação.</p></div></div></div>
+          </div>
+          <p class="source-line">KIBS: Knowledge-Intensive Business Services — empresas cujo principal insumo é o conhecimento técnico especializado.</p>
+        </div>
+      </section>
+
+      <section id="problemas" class="section section-soft">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Os problemas que já existiam</span></div><h2>A 6x1 não criou os problemas. Ela só fez a conta aparecer</h2></div><p>Consultorias e escritórios técnicos carregam fraturas estruturais que funcionam enquanto o volume de horas aguenta. Com a redução de jornada, essas fraturas viram crise.</p></div>
+          <div class="scale-grid cols-4">
+            <article class="scale-card"><div class="scale-card-number scale-problem-number">01</div><h3>Produto invisível</h3><p>O cliente contrata a autoridade do fundador, não um serviço com escopo definido. Cada entrega é customizada do zero.</p><div class="six-one-card"><p><strong>Com a 6x1:</strong>Com menos horas disponíveis, o fundador não consegue estar em tudo. O serviço começa a falhar porque não existe um método que a equipe possa seguir sem ele.</p></div></article>
+            <article class="scale-card"><div class="scale-card-number scale-problem-number">02</div><h3>Diferencial subjetivo</h3><p>O diferencial declarado é “atendimento” ou “experiência”. O concorrente diz o mesmo. A disputa vai para o preço.</p><div class="six-one-card"><p><strong>Com a 6x1:</strong>O custo sobe e a margem cai. Sem diferencial tangível, não há como repassar esse aumento ao cliente sem perder o contrato.</p></div></article>
+            <article class="scale-card"><div class="scale-card-number scale-problem-number">03</div><h3>Jornada inexistente</h3><p>O método existe apenas na cabeça do fundador. Se ele sai da sala, a equipe trava e espera.</p><div class="six-one-card"><p><strong>Com a 6x1:</strong>Com a jornada reduzida, o fundador vai estar fora da operação com muito mais frequência. Sem método documentado, a empresa para junto com ele.</p></div></article>
+            <article class="scale-card"><div class="scale-card-number scale-problem-number">04</div><h3>Entrega invisível</h3><p>O serviço não tem marcos claros. O cliente só vê o resultado no final e questiona o que está pagando no meio do caminho.</p><div class="six-one-card"><p><strong>Com a 6x1:</strong>Com menos horas disponíveis e sem marcos visíveis, o cliente percebe lentidão antes de perceber resultado. Churn e inadimplência sobem.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="diagnostico" class="section section-white">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Diagnóstico Rápido</span></div><h2>Responda mentalmente</h2></div><p>Cada “não sei” ou “depende de mim” é um ponto de vulnerabilidade que a nova legislação vai pressionar diretamente.</p></div>
+          <div class="diagnostic-list">
+            <details class="diagnostic-item"><summary><span class="diagnostic-number">1</span><h3>Se um colaborador-chave tirar férias amanhã, o cliente percebe diferença na entrega?</h3><span class="diagnostic-arrow">+</span></summary><div class="diagnostic-answer"><p>Se a resposta for “sim” ou “talvez”, o processo está na cabeça de uma pessoa — não na empresa.</p></div></details>
+            <details class="diagnostic-item"><summary><span class="diagnostic-number">2</span><h3>Você consegue explicar o que vende em duas frases, sem usar as palavras “solução” ou “personalizado”?</h3><span class="diagnostic-arrow">+</span></summary><div class="diagnostic-answer"><p>Se não consegue, seu time de vendas também não consegue. E o cliente vai comprar do concorrente que souber.</p></div></details>
+            <details class="diagnostic-item"><summary><span class="diagnostic-number">3</span><h3>Seu cliente sabe exatamente o que vai receber e em qual prazo, desde o primeiro dia do contrato?</h3><span class="diagnostic-arrow">+</span></summary><div class="diagnostic-answer"><p>Se não sabe, a percepção de valor vai cair ao longo do tempo — especialmente se o ritmo de entrega diminuir com menos horas disponíveis.</p></div></details>
+            <details class="diagnostic-item"><summary><span class="diagnostic-number">4</span><h3>Se você tirar 4 horas do seu dia, a operação continua rodando no mesmo padrão?</h3><span class="diagnostic-arrow">+</span></summary><div class="diagnostic-answer"><p>Com o 5x2, seu time vai ter sistematicamente menos horas. Se a operação depende de você para não travar, a nova lei vai cobrar essa conta.</p></div></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="scale-quote grain"><div class="inner"><h2>O problema não é a jornada.<br>É como o serviço foi construído.</h2><p>A lei mudou, mas o problema já existia. Entender isso é o primeiro passo para não tratar o sintoma e ignorar a doença.</p></div></section>
+
+      <section class="section section-white">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">O Problema de Fundo</span></div><h2>Três pontos quebram quando a jornada reduz</h2></div><p>Serviço vendido em horas, operação guardada na cabeça das pessoas e gestão por presença são estruturas frágeis quando o tempo disponível diminui.</p></div>
+          <div class="scale-grid cols-3">
+            <article class="scale-card"><h3>Serviço vendido em horas</h3><p>A maioria das empresas de serviço precifica assim: “X horas de trabalho por mês”. Quando a jornada reduz, essa conta quebra.</p></article>
+            <article class="scale-card"><h3>Operação guardada na cabeça das pessoas</h3><p>Quando o processo não está documentado, quem sabe fazer é quem sempre fez. Com escalas rotativas, isso se torna um problema grave.</p></article>
+            <article class="scale-card"><h3>Gestão por presença, não por entrega</h3><p>Se o critério de produtividade é “estar presente”, a empresa não tem dados reais sobre eficiência.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark grain switch-section">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule bg-navy-foreground/40"></span><span class="eyebrow-light">A Virada de Chave</span></div><h2>De venda de horas para venda de resultados</h2></div><p>A mudança não é apenas de vocabulário. É uma reconfiguração de como o serviço é desenhado, precificado e entregue.</p></div>
+          <div class="scale-compare">
+            <div class="scale-panel"><h3>O serviço hoje</h3><div class="auto-list"><div class="auto-item"><span class="auto-icon">×</span><p>Proposta baseada em horas dedicadas.</p></div><div class="auto-item"><span class="auto-icon">×</span><p>Processo guardado na memória do colaborador.</p></div><div class="auto-item"><span class="auto-icon">×</span><p>Custo sobe com qualquer mudança legal.</p></div></div></div>
+            <div class="scale-panel"><h3>O serviço estruturado</h3><div class="auto-list"><div class="auto-item"><span class="auto-icon">✓</span><p>Proposta com escopo e entregável definidos.</p></div><div class="auto-item"><span class="auto-icon">✓</span><p>Processo documentado e replicável.</p></div><div class="auto-item"><span class="auto-icon">✓</span><p>Margem protegida de mudanças externas.</p></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">O Caminho da Estruturação</span></div><h2>Estruturar agora não é escolha. É vantagem competitiva.</h2></div><p>Quem reorganiza antes do prazo sai na frente. Quem espera a lei chegar vai correr contra o tempo com o custo já subindo.</p></div>
+          <div class="scale-grid cols-4">
+            <article class="scale-card"><div class="scale-card-number">01</div><h3>Mapear e formalizar processos</h3><p>Identificar quais atividades dependem de pessoas específicas e converter em procedimento documentado.</p></article>
+            <article class="scale-card"><div class="scale-card-number">02</div><h3>Produtizar o serviço</h3><p>Definir escopos, prazos e entregáveis claros para cada serviço oferecido.</p></article>
+            <article class="scale-card"><div class="scale-card-number">03</div><h3>Construir uma cultura orientada a resultado</h3><p>Criar indicadores de entrega, rituais de acompanhamento e clareza sobre o que se espera de cada pessoa.</p></article>
+            <article class="scale-card"><div class="scale-card-number">04</div><h3>Dimensionar com dados, não com intuição</h3><p>Decidir escalar ou reduzir a equipe com base em demanda real, registrada e analisada.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule"></span><span class="eyebrow">Modelagem de Negócio</span></div><h2>Um padrão replicável para o seu serviço</h2></div><p>Modelagem de Negócio não é uma assessoria genérica. É o processo de transformar uma operação que depende de pessoas específicas em um sistema que funciona com consistência, independente de quem executa e de quantas horas estão disponíveis.</p></div>
+          <div class="scale-grid cols-3">
+            <article class="scale-card"><h3>Visão</h3><p>Definir com clareza qual serviço a empresa vende, para quem e qual padrão de entrega será mantido.</p><p class="model-example"><strong>Exemplo prático:</strong> escrever a proposta de valor do serviço de forma que qualquer colaborador novo entenda o que se espera da entrega.</p><p class="source-line">Papel primário</p></article>
+            <article class="scale-card"><h3>Estrutura</h3><p>Processos documentados, papéis definidos e portfólio de serviços com escopos fechados.</p><p class="model-example"><strong>Exemplo prático:</strong> criar o manual de execução de cada serviço oferecido, com etapas, responsáveis e critérios de qualidade.</p><p class="source-line">Papel primário</p></article>
+            <article class="scale-card"><h3>Rotina</h3><p>Os rituais, reuniões e indicadores que garantem que Visão e Estrutura sejam seguidos no dia a dia.</p><p class="model-example"><strong>Exemplo prático:</strong> reuniões semanais de acompanhamento com critérios objetivos de entrega e registros que alimentem decisões futuras.</p><p class="source-line">Papel de suporte</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="agora" class="section section-dark grain">
+        <div class="inner">
+          <div class="scale-header"><div><div class="flex items-center gap-3"><span class="rule bg-navy-foreground/40"></span><span class="eyebrow-light">Por que Agora</span></div><h2>O mercado não vai esperar pelo empresário que está se preparando</h2></div><p>O prazo já está correndo. A janela de vantagem para quem estrutura primeiro é real — e se fecha rapidamente.</p></div>
+          <div class="scale-grid cols-4">
+            <article class="scale-card"><h3>60 dias é pouco tempo para uma mudança estrutural</h3><p>Redesenhar escalas, revisar contratos, documentar processos e treinar equipes não se faz em semanas.</p></article>
+            <article class="scale-card"><h3>A margem de serviço não tem gordura para absorver</h3><p>Com custo de folha subindo entre 8% e 21%, quem não reorganiza antes vai enfrentar uma escolha ruim.</p></article>
+            <article class="scale-card"><h3>O profissional qualificado vai para onde a operação é melhor</h3><p>Empresas com processos claros, escalas bem definidas e cultura de resultado retêm talento.</p></article>
+            <article class="scale-card"><h3>Quem estrutura antes transforma crise em vantagem</h3><p>Enquanto os concorrentes correm atrás do compliance, a empresa estruturada cresce com processo, padrão e margem preservada.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="scale-final">
+        <div class="inner">
+          <div class="flex items-center gap-3 mb-10"><span class="rule bg-navy-foreground/40"></span><span class="eyebrow-light">Pergunta final</span></div>
+          <h2>Se eu não puder contar com as mesmas horas de trabalho de amanhã, o que acontece com o meu serviço?</h2>
+          <p>Se essa pergunta gera desconforto, é sinal de que existe trabalho a ser feito. Não porque a lei chegou, mas porque o negócio merece ser mais do que dependente de circunstâncias que estão fora do seu controle.</p>
+          <div class="scale-signature"><span>Aretê · Negócios e Patrimônio</span><span>Goiânia, GO · Brasil, BR</span></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
