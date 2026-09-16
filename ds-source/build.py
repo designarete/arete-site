@@ -124,3 +124,9 @@ for old in ['design-system-base.html','design-system-base-especificacao.json']:(
 (SRC/'compiled.js').write_text(js)
 (DIST/'assets/LICENCAS-ICONES.txt').write_text((SRC/'LICENCAS-ICONES.txt').read_text())
 print(json.dumps({'company':'Projearth','icons':len(icons['icons']),'html_bytes':len(html.encode()),'routes':['/','/projearth/']},ensure_ascii=False))
+
+from mercado_imobi import build_mercado_imobi
+build_mercado_imobi(SRC,DIST,css,library,snippets,spec,body,icons)
+
+from colombina import build_colombina
+build_colombina(SRC,DIST,css,library,snippets,spec,body,icons)

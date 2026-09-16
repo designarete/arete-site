@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "scope": "Design System Mercado Imobi",
+  "brand": {
+    "name": "Mercado Imobi",
+    "colors": [
+      "#501D7B",
+      "#FF0087",
+      "#00B2DC",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "typography": "DIN 2014",
+    "typographySource": "DIN2014-Regular e DIN2014-ExtraBold identificadas nos SVGs enviados",
+    "typographyStatus": "Arquivo de fonte não fornecido. DIN 2014 local quando instalada; Arial como apoio.",
+    "assets": {
+      "logos": 3,
+      "symbols": 3,
+      "products": 6,
+      "originalColorSwatches": 5
+    }
+  },
+  "button": {
+    "width": 124,
+    "height": 40,
+    "paddingHorizontal": 24,
+    "paddingVertical": 10,
+    "cornerRadius": 8,
+    "border": 0,
+    "boxSizing": "border-box",
+    "fontSize": 14,
+    "lineHeight": 20,
+    "iconSize": 20,
+    "gap": 8,
+    "variants": [
+      "text",
+      "icon-only",
+      "text-and-icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "active",
+      "disabled",
+      "click"
+    ],
+    "activeMeaning": "selecionado, persistente",
+    "clickMeaning": "pressionado, momentâneo",
+    "iconOnlyWidth": 124
+  },
+  "fields": {
+    "states": [
+      "inactive",
+      "hover",
+      "active",
+      "disabled",
+      "filled",
+      "error",
+      "error-empty"
+    ],
+    "activeMeaning": "foco de edição",
+    "errorMeaning": "preenchido com valor inválido",
+    "errorEmptyMeaning": "campo obrigatório vazio",
+    "proposedHeight": 40,
+    "proposedRadius": 8,
+    "textareaMinHeight": 120,
+    "textareaResize": "vertical"
+  },
+  "avatar": {
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "squareCornerRadius": 8,
+    "notification": [
+      false,
+      true
+    ],
+    "proposedSize": 48
+  },
+  "inlineAlerts": [
+    "default",
+    "info",
+    "success",
+    "warning",
+    "error"
+  ],
+  "components": [
+    "buttons",
+    "breadcrumbs",
+    "pagination",
+    "dropdown-text",
+    "dropdown-icon-text",
+    "checkbox",
+    "radio-button",
+    "switch",
+    "chips",
+    "avatar",
+    "inputs",
+    "text-field",
+    "textarea",
+    "notification-badge",
+    "state-icons",
+    "images",
+    "inline-alert"
+  ],
+  "icons": {
+    "count": 447,
+    "categories": 24,
+    "preserved": 29,
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.8,
+    "color": "currentColor"
+  },
+  "typographyScale": {
+    "pageTitle": {
+      "size": 36,
+      "lineHeight": 42,
+      "weight": 800
+    },
+    "sectionTitle": {
+      "size": 19,
+      "lineHeight": 26,
+      "weight": 800
+    },
+    "body": {
+      "size": 16,
+      "lineHeight": 26,
+      "weight": 400
+    },
+    "label": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 500
+    },
+    "button": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 500
+    },
+    "helper": {
+      "size": 12,
+      "lineHeight": 18,
+      "weight": 400
+    }
+  },
+  "interfaceTheme": {
+    "fontFamily": "\"DIN 2014\", Arial, sans-serif",
+    "colors": {
+      "text": "#24132F",
+      "muted": "#6D5C78",
+      "border": "#E4D9EC",
+      "canvas": "#F8F6FA",
+      "surface": "#FFFFFF",
+      "accent": "#501D7B",
+      "buttonBackground": "#501D7B",
+      "buttonText": "#FFFFFF",
+      "navigationBackground": "#501D7B",
+      "navigationActive": "#00B2DC",
+      "info": "#00647B",
+      "success": "#147448",
+      "warning": "#925509",
+      "error": "#B02A41",
+      "focus": "#501D7B"
+    }
+  }
+}

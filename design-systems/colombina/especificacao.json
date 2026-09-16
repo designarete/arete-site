@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "scope": "Design System Colombina",
+  "brand": {
+    "name": "Colombina",
+    "colors": [
+      "#531B44",
+      "#471839",
+      "#F5A23B",
+      "#EA9436",
+      "#E67F42",
+      "#00AE77",
+      "#006161",
+      "#EB234E",
+      "#AC024F",
+      "#FC4D32",
+      "#DA2821",
+      "#FF361A",
+      "#E5CCB2"
+    ],
+    "typography": [
+      "Blimone",
+      "Inter"
+    ],
+    "typographySource": "Famílias e paleta informadas pela cliente",
+    "fontRoles": {
+      "headings": "Blimone",
+      "interface": "Inter"
+    },
+    "fontStatus": {
+      "Blimone": "Todos os pesos solicitados; arquivos ainda não fornecidos. Família local quando disponível, Inter como apoio, sem síntese de peso.",
+      "Inter": "Variável 100–900, normal e itálico, incorporada no pacote e no HTML offline."
+    },
+    "assets": {
+      "logos": 2,
+      "seal": 1,
+      "illustrations": 6
+    }
+  },
+  "button": {
+    "width": 124,
+    "height": 40,
+    "paddingHorizontal": 24,
+    "paddingVertical": 10,
+    "cornerRadius": 8,
+    "border": 0,
+    "boxSizing": "border-box",
+    "fontSize": 14,
+    "lineHeight": 20,
+    "iconSize": 20,
+    "gap": 8,
+    "variants": [
+      "text",
+      "icon-only",
+      "text-and-icon"
+    ],
+    "states": [
+      "default",
+      "hover",
+      "active",
+      "disabled",
+      "click"
+    ],
+    "activeMeaning": "selecionado, persistente",
+    "clickMeaning": "pressionado, momentâneo",
+    "iconOnlyWidth": 124
+  },
+  "fields": {
+    "states": [
+      "inactive",
+      "hover",
+      "active",
+      "disabled",
+      "filled",
+      "error",
+      "error-empty"
+    ],
+    "activeMeaning": "foco de edição",
+    "errorMeaning": "preenchido com valor inválido",
+    "errorEmptyMeaning": "campo obrigatório vazio",
+    "proposedHeight": 40,
+    "proposedRadius": 8,
+    "textareaMinHeight": 120,
+    "textareaResize": "vertical"
+  },
+  "avatar": {
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "squareCornerRadius": 8,
+    "notification": [
+      false,
+      true
+    ],
+    "proposedSize": 48
+  },
+  "inlineAlerts": [
+    "default",
+    "info",
+    "success",
+    "warning",
+    "error"
+  ],
+  "components": [
+    "buttons",
+    "breadcrumbs",
+    "pagination",
+    "dropdown-text",
+    "dropdown-icon-text",
+    "checkbox",
+    "radio-button",
+    "switch",
+    "chips",
+    "avatar",
+    "inputs",
+    "text-field",
+    "textarea",
+    "notification-badge",
+    "state-icons",
+    "images",
+    "inline-alert"
+  ],
+  "icons": {
+    "count": 447,
+    "categories": 24,
+    "preserved": 29,
+    "viewBox": "0 0 24 24",
+    "strokeWidth": 1.8,
+    "color": "currentColor"
+  },
+  "typographyScale": {
+    "pageTitle": {
+      "size": 36,
+      "lineHeight": 42,
+      "weight": 600
+    },
+    "sectionTitle": {
+      "size": 19,
+      "lineHeight": 26,
+      "weight": 600
+    },
+    "body": {
+      "size": 16,
+      "lineHeight": 26,
+      "weight": 400
+    },
+    "label": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 500
+    },
+    "button": {
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 500
+    },
+    "helper": {
+      "size": 12,
+      "lineHeight": 18,
+      "weight": 400
+    }
+  },
+  "interfaceTheme": {
+    "fontFamily": "Inter, Arial, sans-serif",
+    "headingFamily": "Blimone, Inter, sans-serif",
+    "colors": {
+      "text": "#471839",
+      "muted": "#725969",
+      "border": "#E6D8D0",
+      "canvas": "#FCF8F3",
+      "surface": "#FFFFFF",
+      "accent": "#531B44",
+      "buttonBackground": "#531B44",
+      "buttonText": "#FFFFFF",
+      "navigationBackground": "#531B44",
+      "navigationActive": "#F5A23B",
+      "info": "#006161",
+      "success": "#006B49",
+      "warning": "#7D4500",
+      "error": "#AC024F",
+      "focus": "#531B44"
+    }
+  }
+}
