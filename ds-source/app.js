@@ -1,4 +1,5 @@
 'use strict';
+if(/^https?:$/.test(location.protocol)&&location.pathname.endsWith('/index.html'))location.replace(location.pathname.slice(0,-10)+location.search+location.hash);
 const PAGE_DEFINITIONS = [
  {id:'visao-geral',label:'Visão geral',icon:'layout-grid',group:'Início',description:'Identidade visual, componentes e recursos da Projearth.'},
  {id:'identidade',label:'Marca e grafismos',icon:'shapes',group:'Fundamentos',description:'Logotipo e elementos gráficos da Projearth.'},

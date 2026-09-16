@@ -42,7 +42,7 @@ html{scroll-padding-top:100px}body{background:var(--canvas)}.content{max-width:1
   
 </aside>
 <button type="button" id="nav-backdrop" data-action="menu-close" aria-label="Fechar navegação" tabindex="-1"></button>
-<div class="app-main"><header class="topbar"><button type="button" id="menu-toggle" class="mobile-menu" data-action="menu-open" aria-label="Abrir navegação" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div class="top-crumb"><span>Projearth</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><span id="top-current">Visão geral</span></div><div class="top-actions"><a class="utility ds-home-back" href="../index.html"><span aria-hidden="true">←</span> Voltar à home</a></div></header><main class="content" id="page-content" tabindex="-1"></main></div>
+<div class="app-main"><header class="topbar"><button type="button" id="menu-toggle" class="mobile-menu" data-action="menu-open" aria-label="Abrir navegação" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div class="top-crumb"><span>Projearth</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg><span id="top-current">Visão geral</span></div><div class="top-actions"><a class="utility ds-home-back" href="../"><span aria-hidden="true">←</span> Voltar à home</a></div></header><main class="content" id="page-content" tabindex="-1"></main></div>
 <div class="toast" id="site-toast" role="status" hidden></div>
 <dialog class="copy-dialog" id="copy-dialog" aria-labelledby="copy-title"><h2 id="copy-title">Copiar especificação</h2><p>Use Ctrl+C ou ⌘C para copiar o conteúdo selecionado.</p><textarea id="copy-content" readonly aria-label="Especificação CSS para copiar"></textarea><div class="close-row"><button type="button" class="utility" data-action="close-copy">Fechar</button></div></dialog>
 <noscript><p style="padding:40px">Ative o JavaScript para consultar os componentes e usar o banco de ícones.</p></noscript>
@@ -395,6 +395,7 @@ dialog{border:1px solid #dce5d8;padding:0;width:min(470px,calc(100vw - 24px));ma
 mountIconBank(ICON_DATA);
 
 'use strict';
+if(/^https?:$/.test(location.protocol)&&location.pathname.endsWith('/index.html'))location.replace(location.pathname.slice(0,-10)+location.search+location.hash);
 const PAGE_DEFINITIONS = [
  {id:'visao-geral',label:'Visão geral',icon:'layout-grid',group:'Início',description:'Identidade visual, componentes e recursos da Projearth.'},
  {id:'identidade',label:'Marca e grafismos',icon:'shapes',group:'Fundamentos',description:'Logotipo e elementos gráficos da Projearth.'},
