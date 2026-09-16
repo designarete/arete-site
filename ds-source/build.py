@@ -130,3 +130,7 @@ build_mercado_imobi(SRC,DIST,css,library,snippets,spec,body,icons)
 
 from colombina import build_colombina
 build_colombina(SRC,DIST,css,library,snippets,spec,body,icons)
+
+# Hosted pages use a single cacheable catalogue; downloads remain self-contained.
+from shared_icons import share_icon_bank
+share_icon_bank(SRC,DIST)
