@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 729.27 356.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_2);
+      }
+
+      .cls-2 {
+        fill: #452272;
+        font-size: 40.61px;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_2-9);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_2-6);
+      }
+
+      .cls-5 {
+        fill: url(#Gradiente_sem_nome_2-5);
+      }
+
+      .cls-6 {
+        fill: url(#Gradiente_sem_nome_2-3);
+      }
+
+      .cls-7 {
+        fill: url(#Gradiente_sem_nome_2-4);
+      }
+
+      .cls-8 {
+        fill: url(#Gradiente_sem_nome_2-2);
+      }
+
+      .cls-9 {
+        fill: url(#Gradiente_sem_nome_2-7);
+      }
+
+      .cls-10 {
+        fill: url(#Gradiente_sem_nome_2-8);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-14, .cls-15, .cls-16 {
+        letter-spacing: .1em;
+      }
+
+      .cls-14, .cls-17 {
+        font-family: DIN2014-ExtraBold, 'DIN 2014';
+        font-weight: 700;
+      }
+
+      .cls-18 {
+        letter-spacing: .08em;
+      }
+
+      .cls-18, .cls-15, .cls-19 {
+        font-family: DIN2014-Regular, 'DIN 2014';
+      }
+
+      .cls-19 {
+        letter-spacing: .07em;
+      }
+
+      .cls-20 {
+        letter-spacing: .09em;
+      }
+
+      .cls-21 {
+        letter-spacing: .1em;
+      }
+
+      .cls-22 {
+        fill: url(#Gradiente_sem_nome_2-11);
+      }
+
+      .cls-23 {
+        fill: url(#Gradiente_sem_nome_2-10);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" x1="186.7" y1="151.57" x2="186.7" y2="217.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e63974"/>
+      <stop offset="1" stop-color="#422272"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="153.81" y="139" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-2" data-name="Gradiente sem nome 2" x1="252.47" y1="109.46" x2="252.47" y2="311.48" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-3" data-name="Gradiente sem nome 2" x1="252.47" y1="85.8" x2="252.47" y2="151.57" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-4" data-name="Gradiente sem nome 2" x1="252.47" y1="85.8" x2="252.47" y2="151.57" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-1">
+      <rect class="cls-7" x="219.58" y="73.24" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-5" data-name="Gradiente sem nome 2" x1="252.47" y1="109.46" x2="252.47" y2="311.48" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-6" data-name="Gradiente sem nome 2" x1="120.93" y1="217.33" x2="120.93" y2="283.1" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-7" data-name="Gradiente sem nome 2" x1="120.93" y1="217.33" x2="120.93" y2="283.1" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-2">
+      <rect class="cls-9" x="88.05" y="204.77" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-8" data-name="Gradiente sem nome 2" x1="120.93" y1="109.46" x2="120.93" y2="311.48" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-9" data-name="Gradiente sem nome 2" x1="252.47" y1="217.33" x2="252.47" y2="283.1" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-10" data-name="Gradiente sem nome 2" x1="252.47" y1="217.33" x2="252.47" y2="283.1" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-3">
+      <rect class="cls-23" x="219.58" y="204.77" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-11" data-name="Gradiente sem nome 2" x1="186.7" y1="175.23" x2="186.7" y2="377.25" xlink:href="#Gradiente_sem_nome_2"/>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-1" x="153.81" y="139" width="65.77" height="65.77"/>
+      <g class="cls-24">
+        <rect class="cls-8" x="151.46" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-6" x="219.58" y="73.24" width="65.77" height="65.77"/>
+      <g class="cls-11">
+        <rect class="cls-5" x="151.46" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-4" x="88.05" y="204.77" width="65.77" height="65.77"/>
+      <g class="cls-13">
+        <rect class="cls-10" x="19.92" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="219.58" y="204.77" width="65.77" height="65.77"/>
+      <g class="cls-12">
+        <rect class="cls-22" x="85.69" y="136.65" width="202.02" height="202.02"/>
+      </g>
+    </g>
+  </g>
+  <text class="cls-2" transform="translate(343.91 175.31)"><tspan class="cls-15" x="0" y="0">GE</tspan><tspan class="cls-18" x="54.61" y="0">S</tspan><tspan class="cls-19" x="81.21" y="0">T</tspan><tspan class="cls-15" x="105.01" y="0">ÃO DE</tspan><tspan class="cls-14" x="229.91" y="0"> </tspan><tspan class="cls-17"><tspan class="cls-16" x="0" y="47.61">NEGÓCI</tspan><tspan class="cls-20" x="160.07" y="47.61">O</tspan><tspan class="cls-16" x="189.47" y="47.61">S</tspan></tspan><tspan class="cls-17"><tspan class="cls-21" x="0" y="95.23">IMOBILIÁRI</tspan><tspan class="cls-20" x="244.49" y="95.23">O</tspan><tspan class="cls-16" x="273.89" y="95.23">S</tspan></tspan></text>
+</svg>

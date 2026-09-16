@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 729.27 356.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_2);
+      }
+
+      .cls-2 {
+        fill: #452272;
+        font-size: 40.61px;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_2-9);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_2-6);
+      }
+
+      .cls-5 {
+        fill: url(#Gradiente_sem_nome_2-5);
+      }
+
+      .cls-6 {
+        fill: url(#Gradiente_sem_nome_2-3);
+      }
+
+      .cls-7 {
+        fill: url(#Gradiente_sem_nome_2-4);
+      }
+
+      .cls-8 {
+        fill: url(#Gradiente_sem_nome_2-2);
+      }
+
+      .cls-9 {
+        fill: url(#Gradiente_sem_nome_2-7);
+      }
+
+      .cls-10 {
+        fill: url(#Gradiente_sem_nome_2-8);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-14 {
+        font-family: DIN2014-Regular, 'DIN 2014';
+      }
+
+      .cls-14, .cls-15 {
+        letter-spacing: .1em;
+      }
+
+      .cls-16 {
+        font-family: DIN2014-ExtraBold, 'DIN 2014';
+        font-weight: 700;
+      }
+
+      .cls-17 {
+        letter-spacing: .07em;
+      }
+
+      .cls-18 {
+        fill: url(#Gradiente_sem_nome_2-11);
+      }
+
+      .cls-19 {
+        fill: url(#Gradiente_sem_nome_2-10);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="translate(142.84 -94.08) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e63974"/>
+      <stop offset="1" stop-color="#422272"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="152.1" y="92.5" width="65.77" height="65.77" transform="translate(-34.48 167.53) rotate(-45)"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-2" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-3" data-name="Gradiente sem nome 2" x1="241.73" y1="89.12" x2="362.02" y2="209.41" gradientTransform="translate(170.08 -159.85) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-4" data-name="Gradiente sem nome 2" x1="241.73" y1="89.12" x2="362.02" y2="209.41" gradientTransform="translate(170.08 -159.85) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-1">
+      <rect class="cls-7" x="245.11" y="92.5" width="65.77" height="65.77" transform="translate(-7.24 233.3) rotate(-45)"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-5" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-6" data-name="Gradiente sem nome 2" x1="148.72" y1="182.13" x2="269.01" y2="302.42" gradientTransform="translate(208.61 -66.84) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-7" data-name="Gradiente sem nome 2" x1="148.72" y1="182.13" x2="269.01" y2="302.42" gradientTransform="translate(208.61 -66.84) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-2">
+      <rect class="cls-9" x="152.1" y="185.51" width="65.77" height="65.77" transform="translate(-100.25 194.77) rotate(-45)"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-8" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-9" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="translate(235.85 -132.6) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-10" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="translate(235.85 -132.6) rotate(45)" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-3">
+      <rect class="cls-19" x="245.11" y="185.51" width="65.77" height="65.77" transform="translate(-73.01 260.54) rotate(-45)"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-11" data-name="Gradiente sem nome 2" x1="195.23" y1="135.63" x2="315.51" y2="255.92" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#Gradiente_sem_nome_2"/>
+  </defs>
+  <text class="cls-2" transform="translate(383.06 217.28)"><tspan class="cls-14"><tspan x="0" y="0">HOUSE DE</tspan></tspan><tspan class="cls-16"><tspan class="cls-15" x="0" y="47.61">VEN</tspan><tspan class="cls-17" x="85.52" y="47.61">D</tspan><tspan class="cls-15" x="114.1" y="47.61">AS</tspan></tspan></text>
+  <g>
+    <g>
+      <rect class="cls-1" x="152.1" y="92.5" width="65.77" height="65.77" transform="translate(-34.48 167.53) rotate(-45)"/>
+      <g class="cls-20">
+        <rect class="cls-8" x="130.48" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-6" x="245.11" y="92.5" width="65.77" height="65.77" transform="translate(-7.24 233.3) rotate(-45)"/>
+      <g class="cls-11">
+        <rect class="cls-5" x="130.48" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-4" x="152.1" y="185.51" width="65.77" height="65.77" transform="translate(-100.25 194.77) rotate(-45)"/>
+      <g class="cls-13">
+        <rect class="cls-10" x="130.48" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="245.11" y="185.51" width="65.77" height="65.77" transform="translate(-73.01 260.54) rotate(-45)"/>
+      <g class="cls-12">
+        <rect class="cls-18" x="130.48" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 399.8 356.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #452272;
+        font-size: 40.61px;
+        letter-spacing: .1em;
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_2);
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_2-9);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_2-6);
+      }
+
+      .cls-5 {
+        fill: url(#Gradiente_sem_nome_2-5);
+      }
+
+      .cls-6 {
+        fill: url(#Gradiente_sem_nome_2-3);
+      }
+
+      .cls-7 {
+        fill: url(#Gradiente_sem_nome_2-4);
+      }
+
+      .cls-8 {
+        fill: url(#Gradiente_sem_nome_2-2);
+      }
+
+      .cls-9 {
+        fill: url(#Gradiente_sem_nome_2-7);
+      }
+
+      .cls-10 {
+        fill: url(#Gradiente_sem_nome_2-8);
+      }
+
+      .cls-11 {
+        font-family: DIN2014-Regular, 'DIN 2014';
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-19 {
+        font-family: DIN2014-ExtraBold, 'DIN 2014';
+        font-weight: 700;
+      }
+
+      .cls-20 {
+        fill: url(#Gradiente_sem_nome_2-19);
+      }
+
+      .cls-21 {
+        fill: url(#Gradiente_sem_nome_2-13);
+      }
+
+      .cls-22 {
+        fill: url(#Gradiente_sem_nome_2-14);
+      }
+
+      .cls-23 {
+        fill: url(#Gradiente_sem_nome_2-11);
+      }
+
+      .cls-24 {
+        fill: url(#Gradiente_sem_nome_2-12);
+      }
+
+      .cls-25 {
+        fill: url(#Gradiente_sem_nome_2-15);
+      }
+
+      .cls-26 {
+        fill: url(#Gradiente_sem_nome_2-16);
+      }
+
+      .cls-27 {
+        fill: url(#Gradiente_sem_nome_2-10);
+      }
+
+      .cls-28 {
+        fill: url(#Gradiente_sem_nome_2-20);
+      }
+
+      .cls-29 {
+        fill: url(#Gradiente_sem_nome_2-17);
+      }
+
+      .cls-30 {
+        fill: url(#Gradiente_sem_nome_2-18);
+      }
+
+      .cls-31 {
+        fill: url(#Gradiente_sem_nome_2-23);
+      }
+
+      .cls-32 {
+        fill: url(#Gradiente_sem_nome_2-21);
+      }
+
+      .cls-33 {
+        fill: url(#Gradiente_sem_nome_2-22);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e63974"/>
+      <stop offset="1" stop-color="#422272"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="145.64" y="73.24" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-2" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-3" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-4" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-1">
+      <rect class="cls-7" x="79.87" y="73.24" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-5" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-6" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-7" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-2">
+      <rect class="cls-9" x="79.87" y="139.01" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-8" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-9" data-name="Gradiente sem nome 2" x1="310.06" y1="82.44" x2="310.06" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-10" data-name="Gradiente sem nome 2" x1="310.06" y1="82.44" x2="310.06" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-3">
+      <rect class="cls-27" x="277.18" y="204.78" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-11" data-name="Gradiente sem nome 2" x1="244.29" y1="82.44" x2="244.29" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-12" data-name="Gradiente sem nome 2" x1="244.29" y1="82.44" x2="244.29" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-13" data-name="Gradiente sem nome 2" x1="244.29" y1="82.44" x2="244.29" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-4">
+      <rect class="cls-21" x="211.41" y="73.24" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-14" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-15" data-name="Gradiente sem nome 2" x1="244.29" y1="82.44" x2="244.29" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-16" data-name="Gradiente sem nome 2" x1="244.29" y1="82.44" x2="244.29" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-5">
+      <rect class="cls-26" x="211.41" y="139.01" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-17" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-18" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-19" data-name="Gradiente sem nome 2" x1="112.76" y1="82.44" x2="112.76" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-6">
+      <rect class="cls-20" x="79.87" y="204.78" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-20" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-21" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <linearGradient id="Gradiente_sem_nome_2-22" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+    <clipPath id="clippath-7">
+      <rect class="cls-33" x="145.64" y="204.78" width="65.77" height="65.77"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_2-23" data-name="Gradiente sem nome 2" x1="178.52" y1="82.44" x2="178.52" y2="302.84" xlink:href="#Gradiente_sem_nome_2"/>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-2" x="145.64" y="73.24" width="65.77" height="65.77"/>
+      <g class="cls-34">
+        <rect class="cls-8" x="77.52" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-6" x="79.87" y="73.24" width="65.77" height="65.77"/>
+      <g class="cls-12">
+        <rect class="cls-5" x="11.75" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-4" x="79.87" y="139.01" width="65.77" height="65.77"/>
+      <g class="cls-15">
+        <rect class="cls-10" x="77.52" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-3" x="277.18" y="204.78" width="65.77" height="65.77"/>
+      <g class="cls-13">
+        <rect class="cls-23" x="143.28" y="136.65" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-24" x="211.41" y="73.24" width="65.77" height="65.77"/>
+      <g class="cls-14">
+        <rect class="cls-22" x="77.52" y="5.11" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-25" x="211.41" y="139.01" width="65.77" height="65.77"/>
+      <g class="cls-18">
+        <rect class="cls-29" x="77.52" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-30" x="79.87" y="204.78" width="65.77" height="65.77"/>
+      <g class="cls-17">
+        <rect class="cls-28" x="77.52" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+    <g>
+      <rect class="cls-32" x="145.64" y="204.78" width="65.77" height="65.77"/>
+      <g class="cls-16">
+        <rect class="cls-31" x="77.52" y="70.88" width="202.02" height="202.02"/>
+      </g>
+    </g>
+  </g>
+  
+</svg>
