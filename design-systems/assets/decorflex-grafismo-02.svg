@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #9b3b29;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-5 {
+        fill: #e7a83e;
+      }
+
+      .cls-6 {
+        fill: #c96d17;
+      }
+
+      .cls-7 {
+        fill: #f4d28c;
+      }
+
+      .cls-8 {
+        fill: #aa91b6;
+      }
+
+      .cls-9 {
+        fill: #d6795e;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-11 {
+        fill: #ded0e5;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="-1140" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" y="1140" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g class="cls-10">
+    <g>
+      <g>
+        <rect class="cls-8" x="-26.95" y="-271.79" width="393.36" height="381.59"/>
+        <polygon class="cls-11" points="637.61 -463.43 637.61 -141.58 364.6 109.8 366.13 -271.79 637.61 -463.43"/>
+      </g>
+      <g>
+        <rect class="cls-8" x="424.29" y="-175.97" width="393.36" height="381.59"/>
+        <polygon class="cls-11" points="1088.85 -367.61 1088.85 -45.77 815.84 205.62 817.37 -175.97 1088.85 -367.61"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-3">
+    <rect class="cls-7" width="1920" height="1080"/>
+    <polygon class="cls-5" points="1066.16 -347.29 1066.16 1488.59 2132.33 2067.85 2132.33 -646.27 1066.16 -347.29"/>
+    <polygon class="cls-6" points="1066.16 -347.29 1066.16 370.28 0 949.54 0 -646.27 1066.16 -347.29"/>
+  </g>
+  <g class="cls-4">
+    <g>
+      <polygon class="cls-9" points="1566.51 881.02 2608.6 1600.09 2608.6 1934.15 1566.51 1316.39 1566.51 881.02"/>
+      <polygon class="cls-2" points="1637.11 992.81 2679.2 1711.88 2679.2 2045.93 1637.11 1428.18 1637.11 992.81"/>
+    </g>
+  </g>
+</svg>
