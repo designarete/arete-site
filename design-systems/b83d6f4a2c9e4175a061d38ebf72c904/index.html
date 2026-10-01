@@ -217,7 +217,21 @@ PAGES.identidade=()=>`
 PAGES.cores=()=>{
  const rows=[["Preto","#191919"],["Verde névoa","#DFFFE5"],["Verde","#559C5F"],["Verde profundo","#1B3A1F"],["Azul névoa","#DEEEF7"],["Azul","#5C70F1"],["Azul profundo","#262D61"],["Amarelo","#F7CB55"],["Marrom","#4C2B0E"],["Creme","#FDF5E0"],["Laranja","#EF8357"],["Pêssego","#F5B59A"],["Rosa","#EE82B8"],["Vinho","#561231"]];
  const dark=['#191919','#1B3A1F','#262D61','#4C2B0E','#561231'];
- return `${sectionHeading('Paleta institucional')}<div class="brand-swatches">${rows.map(([label,color])=>`<article class="brand-swatch"><div style="background:${color}" class="color-block"><span style="color:${dark.includes(color)?'#fff':'#191919'}">Aa</span></div><div class="swatch-text"><strong>${label}</strong><button type="button" data-action="copy-color" data-color="${color}" aria-label="Copiar ${color}">${color}${icon('copy',14)}</button></div></article>`).join('')}</div>${sectionHeading('Combinações')}<div class="color-combinations"><div style="background:#f7cb55;color:#191919"><span>Maycol Douglas</span><p>Amarelo · Preto</p><img src="../assets/maycol-logo-preto.svg" alt=""></div><div style="background:#191919;color:#f7cb55"><span>Maycol Douglas</span><p>Preto · Amarelo</p><img src="../assets/maycol-logo-amarelo.svg" alt=""></div><div style="background:#fdf5e0;color:#191919"><span>Maycol Douglas</span><p>Creme · Preto</p><img src="../assets/maycol-logo-preto.svg" alt=""></div></div>`;
+ const combinations=[
+  ['#f7cb55','#191919','Amarelo · Preto','preto'],
+  ['#191919','#f7cb55','Preto · Amarelo','amarelo'],
+  ['#fdf5e0','#191919','Creme · Preto','preto'],
+  ['#1b3a1f','#f7cb55','Verde-escuro · Amarelo','amarelo'],
+  ['#dfffe5','#1b3a1f','Menta · Verde','verde'],
+  ['#deeef7','#262d61','Azul-claro · Azul','azul'],
+  ['#262d61','#fdf5e0','Azul-escuro · Creme','creme'],
+  ['#ef8357','#191919','Laranja · Preto','preto'],
+  ['#f5b59a','#191919','Pêssego · Preto','preto'],
+  ['#ee82b8','#191919','Rosa · Preto','preto'],
+  ['#561231','#f7cb55','Vinho · Amarelo','amarelo'],
+  ['#4c2b0e','#fdf5e0','Marrom · Creme','creme']
+ ];
+ return `${sectionHeading('Paleta institucional')}<div class="brand-swatches">${rows.map(([label,color])=>`<article class="brand-swatch"><div style="background:${color}" class="color-block"><span style="color:${dark.includes(color)?'#fff':'#191919'}">Aa</span></div><div class="swatch-text"><strong>${label}</strong><button type="button" data-action="copy-color" data-color="${color}" aria-label="Copiar ${color}">${color}${icon('copy',14)}</button></div></article>`).join('')}</div>${sectionHeading('Combinações da marca')}<div class="color-combinations">${combinations.map(([background,color,label,logo])=>`<div style="background:${background};color:${color}"><span>Maycol Douglas</span><p>${label}</p><img src="../assets/maycol-logo-${logo}.svg" alt="Aplicação da marca Maycol Douglas em ${label}"></div>`).join('')}</div>`;
 };
 
 PAGES.tipografia=()=>`
