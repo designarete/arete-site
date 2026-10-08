@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        fill: #e7a83e;
+      }
+
+      .cls-4 {
+        fill: #c96d17;
+      }
+
+      .cls-5 {
+        fill: #d0badd;
+      }
+
+      .cls-6 {
+        fill: #aa91b6;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        fill: #ded0e5;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" y="1140" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g class="cls-7">
+    <rect class="cls-8" width="1920" height="1080"/>
+    <g>
+      <g>
+        <rect class="cls-6" x="-26.95" y="868.21" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M-27.24,868.21l318.56-181.55,346.29-10.09-271.49,191.64H-27.24Z"/>
+        <polygon class="cls-8" points="637.61 676.57 637.61 998.42 364.6 1249.8 366.13 868.21 637.61 676.57"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="-299.97" y="581.59" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M-300.25,581.59L18.3,400.04l346.29-10.09-271.49,191.64h-393.36Z"/>
+        <polygon class="cls-8" points="364.6 389.96 364.6 711.8 91.58 963.19 93.11 581.59 364.6 389.96"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="236.55" y="445.65" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M236.27,445.65l318.56-181.55,346.29-10.09-271.49,191.64H236.27Z"/>
+        <polygon class="cls-8" points="901.12 254.02 901.12 575.86 628.1 827.25 629.63 445.65 901.12 254.02"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="-59.65" y="41.98" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M-59.93,41.98l318.56-181.55,346.29-10.09L333.43,41.98H-59.93Z"/>
+        <polygon class="cls-8" points="604.92 -149.65 604.92 172.19 331.9 423.58 333.43 41.98 604.92 -149.65"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="288.82" y="-31.76" width="393.36" height="381.59"/>
+        <polygon class="cls-8" points="953.39 -223.4 953.39 98.45 680.37 349.83 681.9 -31.76 953.39 -223.4"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="424.29" y="964.03" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M424.01,964.03l318.56-181.55,346.29-10.09-271.49,191.64h-393.36Z"/>
+        <polygon class="cls-8" points="1088.85 772.39 1088.85 1094.23 815.84 1345.62 817.37 964.03 1088.85 772.39"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="587.34" y="677.41" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M587.06,677.41l318.56-181.55,346.29-10.09-271.49,191.64h-393.36Z"/>
+        <polygon class="cls-8" points="1251.91 485.78 1251.91 807.62 978.9 1059.01 980.42 677.41 1251.91 485.78"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="789.13" y="159.04" width="393.36" height="381.59"/>
+        <path class="cls-5" d="M788.85,159.04L1107.4-22.51l346.29-10.09-271.49,191.64h-393.36Z"/>
+        <polygon class="cls-8" points="1453.69 -32.6 1453.69 289.24 1180.68 540.63 1182.21 159.04 1453.69 -32.6"/>
+      </g>
+      <g>
+        <rect class="cls-6" x="727.91" y="-281.62" width="393.36" height="381.59"/>
+        <polygon class="cls-8" points="1392.48 -473.25 1392.48 -151.41 1119.46 99.98 1120.99 -281.62 1392.48 -473.25"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-2">
+    <polygon class="cls-3" points="1066.16 792.71 1066.16 2628.59 2132.33 3207.85 2132.33 493.73 1066.16 792.71"/>
+    <polygon class="cls-4" points="1066.16 792.71 1066.16 1510.28 0 2089.54 0 493.73 1066.16 792.71"/>
+  </g>
+</svg>

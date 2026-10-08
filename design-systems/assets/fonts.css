@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./7cHpv4kjgoGqM7EPCw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./7cHqv4kjgoGqM7E3_-gc4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./7cHqv4kjgoGqM7E30-8c4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./7cHqv4kjgoGqM7E3t-4c4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(./u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrgCcqEw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(./u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icqEw.ttf) format('truetype');
+}
+@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(./colombina-InterVariable.woff2) format('woff2')}
+
+/* Fórum Mercado Imobi — Sarre */
+@font-face{font-family:'Sarre';font-style:normal;font-weight:100;font-display:swap;src:url(./sarre-thin.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:200;font-display:swap;src:url(./sarre-ultralight.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:300;font-display:swap;src:url(./sarre-light.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:400;font-display:swap;src:url(./sarre-regular.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:500;font-display:swap;src:url(./sarre-medium.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:700;font-display:swap;src:url(./sarre-bold.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:800;font-display:swap;src:url(./sarre-extrabold.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:normal;font-weight:900;font-display:swap;src:url(./sarre-black.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:100;font-display:swap;src:url(./sarre-thin-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:200;font-display:swap;src:url(./sarre-ultralight-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:300;font-display:swap;src:url(./sarre-light-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:400;font-display:swap;src:url(./sarre-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:500;font-display:swap;src:url(./sarre-medium-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:700;font-display:swap;src:url(./sarre-bold-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:800;font-display:swap;src:url(./sarre-extrabold-italic.otf) format('opentype')}
+@font-face{font-family:'Sarre';font-style:italic;font-weight:900;font-display:swap;src:url(./sarre-black-italic.otf) format('opentype')}
