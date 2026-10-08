@@ -59,9 +59,5 @@
       <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
     </symbol>
   </defs>
-  <rect width="1920" height="1080" fill="#fff"/>
-  <g transform="translate(0 0) scale(.5)"><use href="#grafismo-1"/></g>
-  <g transform="translate(960 0) scale(.5)"><use href="#grafismo-2"/></g>
-  <g transform="translate(0 540) scale(.5)"><use href="#grafismo-3"/></g>
-  <g transform="translate(960 540) scale(.5)"><use href="#grafismo-4"/></g>
+  <use href="#grafismo-4"/>
 </svg>
