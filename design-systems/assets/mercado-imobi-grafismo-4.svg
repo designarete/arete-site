@@ -1,0 +1,37 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080"><defs><style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_14);
+      }
+
+      .cls-3 {
+        fill: #50237f;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #00a7d6;
+      }
+
+      .cls-7 {
+        fill: #ff0074;
+      }
+
+      .cls-8 {
+        fill: url(#Gradiente_sem_nome_14-2);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+    </style><clipPath id="clippath"><rect class="cls-1" x="0" width="1920" height="1080"/></clipPath><linearGradient id="Gradiente_sem_nome_14" data-name="Gradiente sem nome 14" x1="-1980.29" y1="-1138.68" x2="-1979.29" y2="-1138.68" gradientTransform="translate(-4348624.4453 2502207.8202) scale(-2196.9946 2196.9946)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff006b"/><stop offset="1" stop-color="#750590"/></linearGradient><clipPath id="clippath-1"><rect class="cls-1" y="-1140" width="1920" height="1080"/></clipPath><linearGradient id="Gradiente_sem_nome_14-2" data-name="Gradiente sem nome 14" x1="-1980.54" y1="-1139.13" x2="-1979.54" y2="-1139.13" gradientTransform="translate(-4349183.6483 2502061.2446) scale(-2196.9946 2196.9946)" xlink:href="#Gradiente_sem_nome_14"/></defs><g><g class="cls-9"><rect class="cls-2" x="-141.45" y="-401.48" width="2202.91" height="1882.95" transform="translate(-141.45 540.34) rotate(-29.38)"/></g><polygon class="cls-5" points="1920 0 1664.58 0 1664.58 103.24 812.27 103.24 812.27 976.76 1664.58 976.76 1664.58 1080 1920 1080 1920 0"/><g><rect class="cls-3" x="776.2" y="145.43" width="13.96" height="13.96"/><rect class="cls-7" x="709.21" y="167.93" width="29.09" height="29.09"/><rect class="cls-6" x="783.18" y="74.51" width="29.09" height="29.09"/></g></g><g class="cls-4"><rect class="cls-8" x="-141.45" y="-1541.48" width="2202.91" height="1882.95" transform="translate(417.75 393.76) rotate(-29.38)"/></g></svg>
