@@ -59,5 +59,15 @@
       <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
     </symbol>
   </defs>
-  <use href="#grafismo-1"/>
+      <rect width="1920" height="1080" fill="#002C9F"/>
+      <rect width="1920" height="1080" fill="url(#grid)"/>
+      <g fill="none" stroke="#D2DBEE" stroke-width="42" stroke-linecap="square" stroke-linejoin="miter" opacity=".92">
+        <path d="M-90 840H560L860 540H1360L1660 240H2010"/>
+        <path d="M-120 1000H650L950 700H1450L1750 400H2040" opacity=".38"/>
+      </g>
+      <g fill="#fff">
+        <circle cx="560" cy="840" r="18"/><circle cx="860" cy="540" r="18"/><circle cx="1360" cy="540" r="18"/><circle cx="1660" cy="240" r="18"/>
+      </g>
+      <path d="M120 140h430M120 190h260" stroke="#fff" stroke-width="12" opacity=".78"/>
+    
 </svg>

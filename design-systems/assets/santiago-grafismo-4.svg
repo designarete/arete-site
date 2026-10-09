@@ -59,5 +59,14 @@
       <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
     </symbol>
   </defs>
-  <use href="#grafismo-4"/>
+      <rect width="1920" height="1080" fill="#3F3F3F"/>
+      <circle cx="1480" cy="540" r="520" fill="none" stroke="#5071BE" stroke-width="150" opacity=".9"/>
+      <circle cx="1480" cy="540" r="310" fill="none" stroke="#8CA0D3" stroke-width="38" opacity=".55"/>
+      <path d="M1010 540h940" stroke="#fff" stroke-width="24" opacity=".9"/>
+      <g transform="translate(160 260)" fill="none" stroke-linecap="square">
+        <path d="M0 0h560M0 190h760M0 380h620" stroke="#D2DBEE" stroke-width="38"/>
+        <path d="m30 0 45 45 95-105M30 190l45 45 95-105M30 380l45 45 95-105" stroke="#5071BE" stroke-width="28"/>
+      </g>
+      <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
+    
 </svg>

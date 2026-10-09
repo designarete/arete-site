@@ -59,5 +59,16 @@
       <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
     </symbol>
   </defs>
-  <use href="#grafismo-2"/>
+      <rect width="1920" height="1080" fill="#F8FAFC"/>
+      <rect width="1920" height="1080" fill="url(#micro-grid)"/>
+      <g transform="translate(220 110)" fill="none" stroke="#002C9F" stroke-width="66" stroke-linecap="square">
+        <path d="M0 190h520l220 220h520"/>
+        <path d="M1480 670H960L740 450H220" opacity=".24"/>
+      </g>
+      <g fill="#002C9F">
+        <rect x="128" y="126" width="34" height="260"/><rect x="128" y="126" width="260" height="34"/>
+        <rect x="1758" y="694" width="34" height="260"/><rect x="1532" y="920" width="260" height="34"/>
+      </g>
+      <g fill="#5071BE"><circle cx="960" cy="520" r="34"/><circle cx="960" cy="520" r="12" fill="#F8FAFC"/></g>
+    
 </svg>
