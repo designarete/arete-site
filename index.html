@@ -20,5 +20,90 @@
 
   <body>
     <div id="root"></div>
+
+    <style>
+      /* Remove links relacionados à antiga iniciativa #EMTESE antes do JS terminar de renderizar. */
+      a[href*="emtese" i] {
+        display: none !important;
+      }
+    </style>
+    <script>
+      (() => {
+        const normalize = (value) =>
+          (value || '')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .toLocaleLowerCase('pt-BR');
+
+        const isEmteseBlock = (element) => {
+          const text = normalize(element.textContent);
+          return (
+            text.includes('conheça nossa iniciativa educacional') &&
+            (text.includes('#emtese') || text.includes('entrar no #emtese'))
+          );
+        };
+
+        const removeEmtese = () => {
+          // Remove links avulsos para a iniciativa antiga.
+          document.querySelectorAll('a').forEach((link) => {
+            const href = normalize(link.getAttribute('href'));
+            const text = normalize(link.textContent);
+            if (href.includes('emtese') || text.includes('#emtese')) {
+              link.remove();
+            }
+          });
+
+          // Encontra o menor contêiner que representa o bloco inteiro do #EMTESE
+          // e o remove sem afetar Contato, Endereço ou outras seções da home.
+          const candidates = [...document.querySelectorAll('#root *')]
+            .filter(isEmteseBlock)
+            .sort((a, b) => normalize(a.textContent).length - normalize(b.textContent).length);
+
+          if (candidates.length) {
+            candidates[0].remove();
+          }
+
+          // Fallback para estruturas em que o título esteja separado do texto/CTA.
+          [...document.querySelectorAll('#root *')].forEach((element) => {
+            if (normalize(element.textContent) !== '#emtese') return;
+
+            let node = element;
+            let best = null;
+            while (node && node !== document.body && node.id !== 'root') {
+              const text = normalize(node.textContent);
+              if (
+                text.includes('#emtese') &&
+                (text.includes('iniciativa educacional') || text.includes('entrar no #emtese')) &&
+                !text.includes('fale conosco') &&
+                !text.includes('endereço')
+              ) {
+                best = node;
+              }
+              node = node.parentElement;
+            }
+
+            (best || element).remove();
+          });
+        };
+
+        const start = () => {
+          removeEmtese();
+          const root = document.getElementById('root');
+          if (!root) return;
+
+          const observer = new MutationObserver(removeEmtese);
+          observer.observe(root, { childList: true, subtree: true });
+
+          // Depois da montagem inicial do React, não é necessário observar indefinidamente.
+          window.setTimeout(() => observer.disconnect(), 10000);
+        };
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', start, { once: true });
+        } else {
+          start();
+        }
+      })();
+    </script>
   </body>
 </html>
