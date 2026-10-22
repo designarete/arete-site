@@ -11,19 +11,19 @@
       }
 
       .cls-3 {
-        fill: #e7a83e;
+        fill: #1E40AF;
       }
 
       .cls-4 {
-        fill: #c96d17;
+        fill: #12376B;
       }
 
       .cls-5 {
-        fill: #d0badd;
+        fill: #FFFFFF;
       }
 
       .cls-6 {
-        fill: #aa91b6;
+        fill: #12376B;
       }
 
       .cls-7 {
@@ -31,7 +31,7 @@
       }
 
       .cls-8 {
-        fill: #ded0e5;
+        fill: #F3F7FC;
       }
     </style>
     <clipPath id="clippath">
