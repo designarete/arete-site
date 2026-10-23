@@ -1,74 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
   <defs>
-    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
-      <path d="M72 0H0V72" fill="none" stroke="#8CA0D3" stroke-width="2" opacity=".28"/>
-    </pattern>
-    <pattern id="micro-grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#002C9F" stroke-width="1" opacity=".13"/>
-    </pattern>
-    <linearGradient id="blue-fade" x1="0" x2="1">
-      <stop offset="0" stop-color="#002C9F"/>
-      <stop offset="1" stop-color="#5071BE"/>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        opacity: .24;
+      }
+
+      .cls-3, .cls-4, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: url(#micro-grid);
+      }
+
+      .cls-6 {
+        fill: url(#Gradiente_sem_nome_13);
+      }
+
+      .cls-7 {
+        fill: url(#Gradiente_sem_nome_19);
+      }
+
+      .cls-8 {
+        fill: #002c9f;
+      }
+
+      .cls-9 {
+        fill: #f8fafc;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-11 {
+        opacity: .3;
+      }
+
+      .cls-4 {
+        fill: #105de5;
+      }
+
+      .cls-2 {
+        opacity: .13;
+        stroke: #002c9f;
+      }
+
+      .cls-12 {
+        fill: url(#Gradiente_sem_nome_13-4);
+      }
+
+      .cls-13 {
+        fill: url(#Gradiente_sem_nome_13-3);
+      }
+
+      .cls-14 {
+        fill: url(#Gradiente_sem_nome_13-2);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="2168.47" width="1920" height="1080"/>
+    </clipPath>
+    <linearGradient id="Gradiente_sem_nome_13" data-name="Gradiente sem nome 13" x1="3136.61" y1="285.33" x2="876.78" y2="1056.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0246e0"/>
+      <stop offset="1" stop-color="#001d7b"/>
     </linearGradient>
-    <symbol id="grafismo-1" viewBox="0 0 1920 1080">
-      <rect width="1920" height="1080" fill="#002C9F"/>
-      <rect width="1920" height="1080" fill="url(#grid)"/>
-      <g fill="none" stroke="#D2DBEE" stroke-width="42" stroke-linecap="square" stroke-linejoin="miter" opacity=".92">
-        <path d="M-90 840H560L860 540H1360L1660 240H2010"/>
-        <path d="M-120 1000H650L950 700H1450L1750 400H2040" opacity=".38"/>
+    <linearGradient id="Gradiente_sem_nome_13-2" data-name="Gradiente sem nome 13" x1="3434.77" y1="583.49" x2="1174.94" y2="1354.58" xlink:href="#Gradiente_sem_nome_13"/>
+    <linearGradient id="Gradiente_sem_nome_13-3" data-name="Gradiente sem nome 13" x1="2548.21" y1="-303.07" x2="288.38" y2="468.02" xlink:href="#Gradiente_sem_nome_13"/>
+    <linearGradient id="Gradiente_sem_nome_13-4" data-name="Gradiente sem nome 13" x1="2846.37" y1="-4.91" x2="586.54" y2="766.18" xlink:href="#Gradiente_sem_nome_13"/>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" y="7.13" width="1920" height="1072.87"/>
+    </clipPath>
+    <pattern id="micro-grid" x="0" y="0" width="36" height="36" patternTransform="translate(36 -16600) scale(1 -1)" patternUnits="userSpaceOnUse" viewBox="0 0 36 36">
+      <g>
+        <rect class="cls-1" width="36" height="36"/>
+        <path class="cls-2" d="M36,36H0V0"/>
       </g>
-      <g fill="#fff">
-        <circle cx="560" cy="840" r="18"/><circle cx="860" cy="540" r="18"/><circle cx="1360" cy="540" r="18"/><circle cx="1660" cy="240" r="18"/>
-      </g>
-      <path d="M120 140h430M120 190h260" stroke="#fff" stroke-width="12" opacity=".78"/>
-    </symbol>
-    <symbol id="grafismo-2" viewBox="0 0 1920 1080">
-      <rect width="1920" height="1080" fill="#F8FAFC"/>
-      <rect width="1920" height="1080" fill="url(#micro-grid)"/>
-      <g transform="translate(220 110)" fill="none" stroke="#002C9F" stroke-width="66" stroke-linecap="square">
-        <path d="M0 190h520l220 220h520"/>
-        <path d="M1480 670H960L740 450H220" opacity=".24"/>
-      </g>
-      <g fill="#002C9F">
-        <rect x="128" y="126" width="34" height="260"/><rect x="128" y="126" width="260" height="34"/>
-        <rect x="1758" y="694" width="34" height="260"/><rect x="1532" y="920" width="260" height="34"/>
-      </g>
-      <g fill="#5071BE"><circle cx="960" cy="520" r="34"/><circle cx="960" cy="520" r="12" fill="#F8FAFC"/></g>
-    </symbol>
-    <symbol id="grafismo-3" viewBox="0 0 1920 1080">
-      <rect width="1920" height="1080" fill="#D2DBEE"/>
-      <g transform="rotate(-18 960 540)">
-        <rect x="-180" y="110" width="1120" height="150" rx="10" fill="#002C9F"/>
-        <rect x="520" y="300" width="1580" height="150" rx="10" fill="#5071BE"/>
-        <rect x="-80" y="490" width="1230" height="150" rx="10" fill="#8CA0D3"/>
-        <rect x="760" y="680" width="1280" height="150" rx="10" fill="#002C9F"/>
-        <rect x="80" y="870" width="1050" height="150" rx="10" fill="#3F3F3F"/>
-      </g>
-      <path d="M150 160h270v270" fill="none" stroke="#fff" stroke-width="18"/>
-      <path d="M1770 920h-270V650" fill="none" stroke="#fff" stroke-width="18"/>
-    </symbol>
-    <symbol id="grafismo-4" viewBox="0 0 1920 1080">
-      <rect width="1920" height="1080" fill="#3F3F3F"/>
-      <circle cx="1480" cy="540" r="520" fill="none" stroke="#5071BE" stroke-width="150" opacity=".9"/>
-      <circle cx="1480" cy="540" r="310" fill="none" stroke="#8CA0D3" stroke-width="38" opacity=".55"/>
-      <path d="M1010 540h940" stroke="#fff" stroke-width="24" opacity=".9"/>
-      <g transform="translate(160 260)" fill="none" stroke-linecap="square">
-        <path d="M0 0h560M0 190h760M0 380h620" stroke="#D2DBEE" stroke-width="38"/>
-        <path d="m30 0 45 45 95-105M30 190l45 45 95-105M30 380l45 45 95-105" stroke="#5071BE" stroke-width="28"/>
-      </g>
-      <rect x="90" y="90" width="1740" height="900" fill="none" stroke="#888" stroke-width="3"/>
-    </symbol>
+    </pattern>
+    <linearGradient id="Gradiente_sem_nome_19" data-name="Gradiente sem nome 19" x1="59.81" y1="7.02" x2="2804.28" y2="20.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0246e0"/>
+      <stop offset=".04" stop-color="#1655e2"/>
+      <stop offset=".14" stop-color="#4c7ce9"/>
+      <stop offset=".26" stop-color="#7c9fee"/>
+      <stop offset=".37" stop-color="#a4bcf3"/>
+      <stop offset=".48" stop-color="#c5d4f7"/>
+      <stop offset=".6" stop-color="#dee7fb"/>
+      <stop offset=".73" stop-color="#f0f4fd"/>
+      <stop offset=".85" stop-color="#fbfcfe"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
   </defs>
-      <rect width="1920" height="1080" fill="#F8FAFC"/>
-      <rect width="1920" height="1080" fill="url(#micro-grid)"/>
-      <g transform="translate(220 110)" fill="none" stroke="#002C9F" stroke-width="66" stroke-linecap="square">
-        <path d="M0 190h520l220 220h520"/>
-        <path d="M1480 670H960L740 450H220" opacity=".24"/>
+  <g class="cls-15">
+    <g class="cls-11">
+      <g>
+        <path class="cls-6" d="M1379.59,789.33L3055.37,250.1c5.25-1.71,10.89,1.17,12.6,6.42l40.17,123.64c1.71,5.25-1.17,10.89-6.42,12.6l-1675.78,539.23c-5.25,1.71-10.89-1.17-12.6-6.42l-40.17-123.64c-1.71-5.25,1.17-10.89,6.42-12.6Z"/>
+        <rect class="cls-4" x="1630.58" y="317.25" width="1230" height="150" rx="10" ry="10" transform="translate(-11.3 713.12) rotate(-18)"/>
       </g>
-      <g fill="#002C9F">
-        <rect x="128" y="126" width="34" height="260"/><rect x="128" y="126" width="260" height="34"/>
-        <rect x="1758" y="694" width="34" height="260"/><rect x="1532" y="920" width="260" height="34"/>
+      <path class="cls-14" d="M1677.76,1087.49l1675.78-539.23c5.25-1.71,10.89,1.17,12.6,6.42l40.17,123.64c1.71,5.25-1.17,10.89-6.42,12.6l-1675.78,539.23c-5.25,1.71-10.89-1.17-12.6-6.42l-40.17-123.64c-1.71-5.25,1.17-10.89,6.42-12.6Z"/>
+      <g>
+        <path class="cls-13" d="M791.19,200.93l1675.78-539.23c5.25-1.71,10.89,1.17,12.6,6.42l40.17,123.64c1.71,5.25-1.17,10.89-6.42,12.6L837.54,343.59c-5.25,1.71-10.89-1.17-12.6-6.42l-40.17-123.64c-1.71-5.25,1.17-10.89,6.42-12.6Z"/>
+        <rect class="cls-4" x="1042.18" y="-271.15" width="1230" height="150" rx="10" ry="10" transform="translate(141.72 502.5) rotate(-18)"/>
       </g>
-      <g fill="#5071BE"><circle cx="960" cy="520" r="34"/><circle cx="960" cy="520" r="12" fill="#F8FAFC"/></g>
-    
+      <g>
+        <path class="cls-12" d="M1089.36,499.09L2765.13-40.14c5.25-1.71,10.89,1.17,12.6,6.42l40.17,123.64c1.71,5.25-1.17,10.89-6.42,12.6l-1675.78,539.23c-5.25,1.71-10.89-1.17-12.6-6.42l-40.17-123.64c-1.71-5.25,1.17-10.89,6.42-12.6Z"/>
+        <rect class="cls-4" x="1340.34" y="27.01" width="1230" height="150" rx="10" ry="10" transform="translate(64.18 609.23) rotate(-18)"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-10">
+    <rect class="cls-9" x="0" width="1920" height="1080"/>
+    <rect class="cls-5" x="0" width="1920" height="1080"/>
+    <g>
+      <polygon class="cls-7" points="2061.42 198.55 227.75 198.55 -89.09 -118.29 -857.32 -118.29 -857.32 -184.29 -61.76 -184.29 255.08 132.55 2061.42 132.55 2061.42 198.55"/>
+      <g class="cls-3">
+        <polygon class="cls-8" points="2339.26 431.98 822.42 431.98 505.58 115.14 -703.87 115.14 -703.87 49.14 532.92 49.14 849.76 365.98 2339.26 365.98 2339.26 431.98"/>
+      </g>
+    </g>
+  </g>
 </svg>

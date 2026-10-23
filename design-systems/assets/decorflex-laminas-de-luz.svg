@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-labelledby="title desc">
-  <title id="title">Lâminas de luz</title>
-  <desc id="desc">Grafismo com lâminas diagonais inspirado no controle de luz das persianas.</desc>
-  <rect width="360" height="210" fill="#0A2540"/>
-  <g fill="#1E40AF">
-    <path d="M18 0h35L1 210H0V0z"/>
-    <path opacity=".9" d="M75 0h35L58 210H23z"/>
-    <path opacity=".8" d="M132 0h35l-52 210H80z"/>
-    <path opacity=".7" d="M189 0h35l-52 210h-35z"/>
-    <path opacity=".6" d="M246 0h35l-52 210h-35z"/>
-    <path opacity=".5" d="M303 0h35l-52 210h-35z"/>
-  </g>
-  <path d="M270 0h90v210H218z" fill="#F3F7FC"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img" aria-label="Grafismo Laminas de luz"><rect width="360" height="210" fill="#0A2540"/><g fill="#1E40AF"><path opacity="1" d="M18 0h35L1 210H0z"/><path opacity=".9" d="M75 0h35L58 210H0z"/><path opacity=".8" d="M132 0h35L115 210H0z"/><path opacity=".7" d="M189 0h35L172 210H0z"/><path opacity=".6" d="M246 0h35L229 210H0z"/><path opacity=".5" d="M303 0h35L286 210H0z"/></g><path d="M270 0h90v210H218z" fill="#F3F7FC"/></svg>
