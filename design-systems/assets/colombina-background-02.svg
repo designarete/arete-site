@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Inter-Medium, Inter;
+        font-size: 9.45px;
+        font-weight: 500;
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #531b44;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #d78252;
+        stroke-width: .7px;
+      }
+
+      .cls-4 {
+        fill: #e5ccb2;
+      }
+
+      .cls-2 {
+        font-size: 7px;
+        letter-spacing: .01em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="14.17" y="14.17" width="813.54" height="566.93"/>
+  <text class="cls-1" transform="translate(53.28 53.28)"><tspan x="0" y="0">Cervejaria Colombina</tspan></text>
+  <line class="cls-3" x1="53.28" y1="522.44" x2="788.61" y2="522.44"/>
+  <line class="cls-3" x1="53.28" y1="72.83" x2="788.61" y2="72.83"/>
+  <text class="cls-2" transform="translate(53.28 546.13)"><tspan x="0" y="0">Material confidencial e destinado exclusivamente para os participantes desta reunião</tspan></text>
+</svg>

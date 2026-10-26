@@ -221,7 +221,9 @@ PAGES.identidade=()=>`
  <div class="graphics-grid">${[['Branco',1],['Ameixa',2]].map(([label,n])=>`<article class="graphic-card"><div class="graphic-stage logo ${n===1?'dark':''}"><img src="${coAsset('logo-'+n)}" alt="Colombina — logotipo ${label.toLowerCase()}" width="899" height="384"></div><div class="panel-footer"><span>${label}</span>${coDownload('logo-'+n,'logotipo '+label.toLowerCase())}</div></article>`).join('')}</div>
  ${sectionHeading('Selo da marca')}
  <article class="graphic-card"><div class="seal-stage"><img src="../assets/colombina-selo.svg" alt="A cerveja do Cerrado" width="850" height="849"></div><div class="panel-footer"><span>A cerveja do Cerrado</span>${coDownload('selo','selo da marca')}</div></article>
- ${sectionHeading('Ilustrações')}${coArt()}`;
+ ${sectionHeading('Ilustrações')}${coArt()}
+ ${sectionHeading('Backgrounds')}
+ <div class="graphics-grid">${[['Capa',1],['Página interna',2],['Página final',3]].map(([label,n])=>`<article class="graphic-card"><div class="graphic-stage"><img src="../assets/colombina-background-${String(n).padStart(2,'0')}.svg" alt="Colombina — ${label.toLowerCase()}" width="1920" height="1080" loading="lazy"></div><div class="panel-footer"><span>${label}</span><a class="utility small" href="../assets/colombina-background-${String(n).padStart(2,'0')}.svg" download="colombina-background-${String(n).padStart(2,'0')}.svg" aria-label="Baixar ${label.toLowerCase()} em SVG">${icon('download',16)}SVG</a></div></article>`).join('')}</div>`;
 PAGES.cores=()=>`
  ${sectionHeading('Paleta da marca')}
  <div class="brand-swatches">${CO_COLORS.map(([name,c])=>`<article class="brand-swatch"><div class="color-block" style="background:${c};color:${coColorInk(c)}"><span>Aa</span></div><div class="swatch-text"><strong>${name}</strong><button type="button" data-action="copy-color" data-color="${c}" aria-label="Copiar ${c}">${c}${icon('copy',14)}</button></div></article>`).join('')}</div>
