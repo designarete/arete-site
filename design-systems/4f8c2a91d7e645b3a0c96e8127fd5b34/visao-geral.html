@@ -632,21 +632,7 @@ PAGES['visao-geral']=()=>` <section class="decorflex-hero"><div><span class="bra
  <a class="icon-feature" href="#icones"><span class="feature-glyphs">${['ruler','layers','palette','sliders-horizontal','layout-grid','sparkles'].map(id=>icon(id,27)).join('')}</span><div><h2>Banco de ícones</h2><p>447 ícones · 24 categorias</p></div><span class="feature-arrow">${icon('arrow-up-right',24)}</span></a>`;
 
 PAGES.identidade=()=>`${sectionHeading('Logomarca','Assinatura principal e regras de aplicação.')}
- <div class="identity-logo-single">${panel('Logotipo',`<div class="brand-logo-stage" style="background:#fff"><img src="../assets/decorflex-logo.svg" alt="Decorflex Pro — A arte de decorar" width="1254" height="537" style="max-height:230px"></div><div class="panel-footer"><span>Versão principal</span><a class="utility small" href="../assets/decorflex-logo.svg" download="decorflex-logo.svg">${icon('download',16)}Baixar SVG</a></div>`)}</div> ${sectionHeading('Backgrounds','Elementos visuais da identidade Decorflex para fundos, campanhas e composi&ccedil;&otilde;es.')}<div class="graphics-grid decorflex-backgrounds">${[
- ['decorflex-laminas-de-luz.svg','L&acirc;minas de luz'],
- ['decorflex-background-01.svg','Background 01'],
- ['decorflex-background-02.svg','Background 02'],
- ['decorflex-background-03.svg','Background 03'],
- ['decorflex-background-04.svg','Background 04'],
- ['decorflex-background-05.svg','Background 05'],
- ['decorflex-background-06.svg','Background 06'],
- ['decorflex-background-07.svg','Background 07'],
- ['decorflex-background-08.svg','Background 08'],
- ['decorflex-background-09.svg','Background 09'],
- ['decorflex-background-10.svg','Background 10'],
- ['decorflex-background-11.svg','Background 11']
- ].map(([file,name])=>`<article class="graphic-card"><div class="graphic-stage"><img src="../assets/${file}" alt="${name}" width="1920" height="1080"></div><div class="panel-footer"><span>${name}</span><a class="utility small" href="../assets/${file}" download="${file}">${icon('download',15)}Baixar SVG</a></div></article>`).join('')}</div>
-
+ <div class="identity-logo-single">${panel('Logotipo',`<div class="brand-logo-stage" style="background:#fff"><img src="../assets/decorflex-logo.svg" alt="Decorflex Pro — A arte de decorar" width="1254" height="537" style="max-height:230px"></div><div class="panel-footer"><span>Versão principal</span><a class="utility small" href="../assets/decorflex-logo.svg" download="decorflex-logo.svg">${icon('download',16)}Baixar SVG</a></div>`)}</div>
  ${sectionHeading('Proteção e legibilidade','Preserve a leitura e a integridade da assinatura.')}
  <div class="notes-grid">${note('Área de proteção','Mantenha uma área livre consistente ao redor da assinatura, sem textos, imagens ou outros elementos.','maximize')}${note('Tamanho mínimo','Use no mínimo 35 mm em materiais impressos ou 160 px em telas.','ruler')}${note('Arte original','Não redesenhe, distorça ou substitua os elementos da marca. Preserve a linha arquitetônica, o nome e a assinatura “A arte de decorar”.','shield-check')}</div>
  ${sectionHeading('Princípios da identidade')}
